@@ -1,21 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meta’nın Akıllı Gözlükleri</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ShiftDelete Clone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
+    /* Stil kodları burada */
     body {
       font-family: 'Roboto', sans-serif;
       background-color: #f5f5f5;
-      color: #333;
+      margin: 0;
+      padding: 0;
     }
 
     header {
@@ -54,7 +52,7 @@
       color: #fcd700;
     }
 
-    .navbar {
+    nav.navbar {
       background-color: #111;
       border-top: 1px solid #333;
       border-bottom: 1px solid #333;
@@ -109,100 +107,37 @@
       border-radius: 12px;
     }
 
-    .sidebar h2 {
-      font-size: 1.2rem;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 10px;
+    footer {
+      background-color: #111;
+      color: #ccc;
+      padding: 20px 0;
+      text-align: center;
+      margin-top: 40px;
     }
 
-    .news-card {
-      display: flex;
-      gap: 10px;
-      margin-bottom: 15px;
-      border-bottom: 1px solid #eee;
-      padding-bottom: 10px;
-    }
-
-    .news-card img {
-      width: 80px;
-      height: 60px;
-      object-fit: cover;
-      border-radius: 6px;
-    }
-
-    .news-card div {
-      flex: 1;
-      font-size: 0.9rem;
-    }
-
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 15px;
-      color: #222;
-    }
-
-    .meta {
-      color: #777;
-      font-size: 0.9rem;
-      margin-bottom: 20px;
-    }
-
-    .container img {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 25px;
-    }
-
-    p {
-      font-size: 1.1rem;
-      line-height: 1.7;
-      margin-bottom: 20px;
-    }
-
-    .highlight {
-      color: #c00;
-      font-weight: bold;
-      font-size: 1.2rem;
-    }
-
-    .share {
-      display: flex;
-      gap: 15px;
-      margin-top: 30px;
-    }
-
-    .share a {
+    .footer-social a {
+      color: #ccc;
       text-decoration: none;
-      padding: 10px 15px;
-      background-color: #eee;
-      border-radius: 8px;
-      color: #444;
-      font-weight: 500;
-      transition: all 0.3s ease;
+      margin: 0 8px;
+      font-size: 1.2rem;
+      transition: 0.3s;
     }
 
-    .share a:hover {
-      background-color: #444;
-      color: white;
-    }
-
-    @media (max-width: 768px) {
-      .main {
-        flex-direction: column;
-      }
+    .footer-social a:hover {
+      color: #fcd700;
     }
   </style>
 </head>
 <body>
 
 <header>
+  <img src="logo-2x.webp" alt="ShiftDelete Logo" style="height:40px; margin-right:20px;">
   <div class="follow-section">
     <span>BİZİ TAKİP EDİN</span>
-    <a href="https://www.instagram.com" target="_blank">📷</a>
-    <a href="https://www.twitter.com" target="_blank">🐦</a>
-    <a href="https://www.youtube.com" target="_blank">▶️</a>
-    <a href="https://www.linkedin.com" target="_blank">💼</a>
+    <a href="https://www.instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.twitter.com" target="_blank" title="Twitter"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://www.youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
   </div>
 </header>
 
@@ -220,15 +155,47 @@
 
 <div class="main">
   <div class="container">
-    <h1>Meta’nın akıllı gözlükleri, canlı çeviri özelliği sunuyor!</h1>
-    <div class="meta">Yazan: Alperen Esin • 24 Nisan 2025</div>
-    <img src="gozluk.jpg" alt="Meta Akıllı Gözlük">
-    <p>
-      Meta, Ray-Ban işbirliğiyle geliştirdiği akıllı gözlüklere gerçek zamanlı çeviri özelliği ekledi. Daha önce yalnızca sınırlı sayıda kullanıcı tarafından test edilen bu özellik, 24 Nisan 2025 itibarıyla daha geniş çapta kullanılabilir hale geldi.
-    </p>
-    <p class="highlight">
-      Meta’nın akıllı gözlükleri, canlı çeviri özelliği kazandı!
-    </p>
+    <h1>Çalışanlarımıza Özel Konut Sahipliği Programı Başladı!</h1>
+    <p>Yazan: Furkan Karaca • 24 Nisan 2025</p>
+    <img src="1rsm.png" alt="Meta Akıllı Gözlük" style="width:100%; border-radius:10px; margin-bottom:20px;">
+    <p>Değerli ShiftDelete.Net Ailesi,
+
+Her gün birlikte attığımız adımlarla sadece teknolojiye değil, hayata da değer katıyoruz. Ar-Ge’den yazılıma, üretimden yönetime uzanan bu eşsiz yolculukta, ortak emeğimizin gerçek birer sonucu olan projelere imza atıyoruz.
+Ve şimdi bu adımların bir yenisini, belki de en anlamlısını sizlerle paylaşmaktan büyük mutluluk ve gurur duyuyoruz:
+
+ShiftDelete.Net Çalışanlarına Özel Konut Sahipliği Destek Programı artık başlıyor!
+Bu girişim yalnızca bir barınma projesi değil; şirketimizin, "insanı merkeze alan" vizyonunun bir tezahürü ve geleceği birlikte inşa etme kararlılığımızın somut bir göstergesidir.
+
+
+<h1> 📌 Projenin Vizyonu ve amacı.</h1>
+
+<p> Bu program; Türkiye’nin farklı illerinde görev yapan, geleceği birlikte kurduğumuz çalışanlarımızın güvenli, erişilebilir ve uzun vadeli yaşam planlarını desteklemek amacıyla geliştirilmiştir. Yaşadığımız şehirlerde nitelikli ve uygun maliyetli konutlara ulaşmak her geçen gün daha da zorlaşırken, ShiftDelete.Net olarak bu süreci kolaylaştırmak ve sosyal sorumluluk anlayışımızı içerden başlatmak bizim için büyük bir öncelik haline gelmiştir. Bu vizyon doğrultusunda; Ekonomik konutlara erişim, Finansal sürdürülebilirlik, Aile hayatının desteklenmesi, Şirket içi bağlılık ve refah seviyesinin artırılması gibi başlıklar altında şekillenen çok yönlü bir sosyal yatırım sürecini hayata geçiriyoruz. </p>
+
+<h1> 🏙 Proje Detayları </h1>
+<p> Nerede, Ne Şekilde? Programın ilk fazı, İstanbul, Ankara, İzmir, Bursa ve Antalya gibi büyük şehirlerin yanı sıra, çalışan yoğunluğunun yüksek olduğu Anadolu şehirlerinde de eş zamanlı olarak uygulanacak şekilde tasarlandı. Proje kapsamında; 
+<p> ✔️ Gelişmiş ulaşım ağlarına ve toplu taşımaya yakın </p>
+<p> ✔️ Okul, park ve sağlık hizmetlerine erişimi kolay </p>
+<p> ✔️ Modern mimariyle tasarlanmış ve çevre dostu yapı kriterlerine uygun </p>
+<p> ✔️ Sosyal donatılarla (yeşil alanlar, spor salonları, ortak yaşam alanları) desteklenmiş </p>
+<p> ✔️ Akıllı ev sistemleri ile donatılmış yüzlerce konut birimi siz değerli çalışanlarımız için ayrılmış durumda. </p>
+
+<h1> 💰 Finansal Model </h1>
+<p> Şirket Destekli Sahiplik Yapısı ShiftDelete.Net, bu projede yalnızca bir organizatör değil, aktif bir destekleyici ve finansal çözüm ortağıdır. Finansal olanaklar kapsamında: Piyasa ortalamasının %30 altında fiyatlarla satış Şirket garantörlüğünde faizsiz 60 aya varan ödeme planları Banka kredisine ihtiyaç duymadan şirket içi taksitlendirme modeli İlk kez ev sahibi olacaklara özel devlet destekli teşvik sistemine entegrasyon Taşınma ve yerleşim süreci için lojistik ve danışmanlık desteği </p>
+<h1> 📋 Kimler Başvurabilir? </h1>
+<p> Süreç Nasıl İşleyecek? Programa, ShiftDelete.Net bünyesinde en az 1 yıl süreyle çalışan ve hâlihazırda herhangi bir mülk sahibi olmayan tüm personel başvuruda bulunabilir. Başvuru değerlendirme kriterlerinde: Hizmet süresi Lokasyon önceliği Ailevi durum Konut ihtiyacının aciliyeti gibi çeşitli sosyal etkenler göz önünde bulundurulacak. Gerektiğinde noter huzurunda çekiliş yapılacaktır.</p>
+<h1> 📅 Başvuru Dönemi </h1>
+<p>  26 Nisan – 10 Mayıs 2025 </p>
+
+
+<p> 🖥 Detaylar ve başvuru formu için: www.shiftdelete.net/konutfirsati </p> 
+<p> 📞 Soru ve destek talepleriniz için: [ikdestek@shiftdelete.net </p> 
+<p> 🤝 Bu Bir Sosyal Yatırımdır, Birlikte Kurduğumuz Geleceğin Temelidir. ShiftDelete.Net olarak, başarının yalnızca teknolojik gelişimle değil, insana yapılan yatırımla mümkün olacağına inanıyoruz. Bu nedenle attığımız her stratejik adımda, çalışanlarımızın yaşam kalitesini merkeze almayı temel prensibimiz olarak görüyoruz. Bugün başlattığımız bu proje; sadece “bir ev sahibi olma fırsatı” değil, aynı zamanda ait olduğumuz topluluğa duyduğumuz güvenin ve bağlılığın bir ifadesidir.</p> 
+<p> 📣 Son Söz: Kimi zaman bir yazılım satırıyla, kimi zaman bir fikirle ya da alın teriyle kurduğumuz bu ortak yapının her bir tuğlası, sizlerin emeğiyle yükseliyor. Şimdi o yapının bir parçası da gerçek anlamda “eviniz” olacak. Hazırsanız, yeni bir yaşamın kapılarını birlikte aralayalım. Çünkü biz inanıyoruz: Güçlü bir şirket, mutlu çalışanlarla mümkün. Mutlu bir yaşam ise, güvenli bir yuvayla başlar. </p>
+📍 ShiftDelete.Net – İnsan Kaynakları ve Stratejik Sosyal Gelişim Ekibi </p>
+
+
+</p>
+    <p style="font-weight:bold; color:#c00;">Meta’nın akıllı gözlükleri, canlı çeviri özelliği kazandı!</p>
     <div class="share">
       <a href="#">Facebook'ta Paylaş</a>
       <a href="#">Twitter'da Paylaş</a>
@@ -236,21 +203,22 @@
     </div>
   </div>
   <aside class="sidebar">
-    <h2>Popüler Haberler</h2>
-    <div class="news-card">
-      <img src="https://via.placeholder.com/80x60" alt="Haber1">
-      <div>Öğrenciler için uygun fiyatlı laptop tavsiyeleri</div>
-    </div>
-    <div class="news-card">
-      <img src="https://via.placeholder.com/80x60" alt="Haber2">
-      <div>En iyi Android TV Box modelleri</div>
-    </div>
-    <div class="news-card">
-      <img src="https://via.placeholder.com/80x60" alt="Haber3">
-      <div>Bluetooth kulaklık önerileri - 2025</div>
-    </div>
+    <h3>Popüler Haberler</h3>
+    <p>- Öğrenciler için uygun fiyatlı laptop tavsiyeleri</p>
+    <p>- En iyi Android TV Box modelleri</p>
+    <p>- Bluetooth kulaklık önerileri - 2025</p>
   </aside>
 </div>
+
+<footer>
+  <p>&copy; 2025 ShiftClone.net - Tüm hakları saklıdır.</p>
+  <div class="footer-social">
+    <a href="https://instagram.com" target="_blank">📷</a>
+    <a href="https://twitter.com" target="_blank">🐦</a>
+    <a href="https://youtube.com" target="_blank">▶️</a>
+    <a href="https://linkedin.com" target="_blank">💼</a>
+  </div>
+</footer>
 
 </body>
 </html>
